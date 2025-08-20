@@ -1,0 +1,21 @@
+# Web Framework
+flask
+flask-cors
+gunicorn
+
+# Google Gemini SDK
+google-generativeai
+
+# LangChain Core Libraries
+langchain
+langchain-google-genai
+langchain-community
+
+# Embedding Model
+sentence-transformers
+
+# Vector Database
+chromadb
+
+# Document Loaders
+pypdf
