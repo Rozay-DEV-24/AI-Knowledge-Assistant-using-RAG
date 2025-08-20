@@ -27,27 +27,23 @@ Retrieval: When a user asks a question, it is also converted into a vector. The 
 Generation: The user's question, the chat history, and the retrieved document chunks are combined into a prompt that is sent to the Gemini API. The AI generates an answer based on the provided context, which is then streamed back to the user.
 
 ## Tech Stack
-Category
-
-Technology
-
-Backend
+## Backend
 
 Python, Flask, Gunicorn
 
-AI/ML
+## AI/ML
 
 Google Gemini API, LangChain, SentenceTransformers
 
-Database
+## Database
 
 ChromaDB (Vector Store)
 
-Frontend
+## Frontend
 
 HTML, CSS, JavaScript (vanilla)
 
-Deployment
+## Deployment
 
 Docker
 
