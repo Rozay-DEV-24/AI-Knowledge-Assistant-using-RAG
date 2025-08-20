@@ -24,8 +24,9 @@ EXPOSE 5000
 
 # Define environment variable for the API key
 # The actual key will be passed in when we run the container
-ENV GOOGLE_API_KEY="AIzaSyCWfWV260bHQjnrZZCtJoQMf8_PQcWlaH0"
+ENV GOOGLE_API_KEY="Gemini 2.5 pro API Key"
 
 # Run app.py when the container launches using Gunicorn
 # This is a production-ready WSGI server
+
 CMD ["gunicorn", "--workers", "2", "--bind", "0.0.0.0:5000", "app:app"]
